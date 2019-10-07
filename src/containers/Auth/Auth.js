@@ -12,7 +12,7 @@ export default class Auth extends Component {
         value: '',
         type: 'user',
         label: 'Имя',
-        errorMessage: 'Используйте русские символы ',
+        errorMessage: 'Имя должно содержать латинские символы',
         valid: false,
         touched: false,
         validation: {
@@ -24,7 +24,7 @@ export default class Auth extends Component {
         value: '',
         type: 'password',
         label: 'Пароль',
-        errorMessage: 'Пожалуйста, введите больше 6 знаков',
+        errorMessage: 'Пароль должен содержать больше 6 знаков',
         valid: false,
         touched: false,
         validation: {
@@ -59,7 +59,7 @@ export default class Auth extends Component {
     }
 
     if (validation.user) {
-        isValid = value.match('[^A-Za-z0-9]+') && isValid
+        isValid = value.match(/^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$/) && isValid
     }
 
     if (validation.minLength) {
