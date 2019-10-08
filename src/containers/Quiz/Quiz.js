@@ -11,25 +11,74 @@ class Quiz extends Component {
         answerState: null,
         quiz: [
             {
-                question: 'Полина бабуля',
+                question: 'Марков соснул?',
                 rightAnswerId: 1,
                 id: 1,
                 answers: [
                     {text: 'Да', id: 1},
                     {text: 'Нет', id: 2},
-                    {text: 'Возможно', id: 3},
-                    {text: 'Ой, чет в спине прихватило', id:4}
                 ]
             },
             {
-                question: 'Текут ли мужики от Полины?',
-                rightAnswerId: 2,
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
                 id: 2,
                 answers: [
                     {text: 'Да', id: 1},
                     {text: 'Нет', id: 2},
-                    {text: 'Возможно', id: 3},
-                    {text: 'Ох, как охуенно у тебя волосы пахнут', id:4}
+                ]
+            },
+            {
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
+                id: 3,
+                answers: [
+                    {text: 'Да', id: 1},
+                    {text: 'Нет', id: 2},
+                ]
+            },
+            {
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
+                id: 4,
+                answers: [
+                    {text: 'Да', id: 1},
+                    {text: 'Нет', id: 2},
+                ]
+            }, {
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
+                id: 5,
+                answers: [
+                    {text: 'Да', id: 1},
+                    {text: 'Нет', id: 2},
+                ]
+            },
+            {
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
+                id: 6,
+                answers: [
+                    {text: 'Да', id: 1},
+                    {text: 'Нет', id: 2},
+                ]
+            },
+            {
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
+                id: 7,
+                answers: [
+                    {text: 'Да', id: 1},
+                    {text: 'Нет', id: 2},
+                ]
+            },
+            {
+                question: 'Марков соснул?',
+                rightAnswerId: 1,
+                id: 8,
+                answers: [
+                    {text: 'Да', id: 1},
+                    {text: 'Нет', id: 2},
                 ]
             }
         ]

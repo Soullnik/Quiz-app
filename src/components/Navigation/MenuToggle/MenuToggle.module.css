@@ -4,7 +4,7 @@
     left: 40px;
     font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
     transition: opacity, left .22s ease-in;
     z-index: 100
 }
@@ -14,5 +14,6 @@
 }
 
 .MenuToggle.open {
+    color: white;
     left: 320px;
 }

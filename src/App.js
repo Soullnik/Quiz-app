@@ -5,7 +5,7 @@ import Quiz from './containers/Quiz/Quiz'
 import QuizList from './containers/QuizList/QuizList'
 import Auth from './containers/Auth/Auth'
 import QuizCreator from './containers/QuizCreator/QuizCreator'
-import TopAnswerPeople from './containers/TopAnswerPeople/TopAnswerPeople'
+import GoogleMapApi from './containers/GoogleMapApi/GoogleMapApi'
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
       <Route path="/auth" component={Auth} />
       <Route path="/quiz-creator" component={QuizCreator} />
       <Route path="/quiz/:id" component={Quiz} />
-      <Route path="/topanswerpeople" component={TopAnswerPeople} />
+      <Route path="/googlemap" component={GoogleMapApi} />
       <Route path="/" component={QuizList} />
       </Switch>
     </Layout>
